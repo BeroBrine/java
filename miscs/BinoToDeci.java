@@ -5,11 +5,11 @@ import java.util.*;
 
 public class BinoToDeci
 {
-    public static int conversion(int num )
+    public static long conversion(long num )
     {
-        int lastDigit;
-        int sum = 0;
-        int power = 0;
+        long lastDigit;
+        long sum = 0;
+        long power = 0;
         while ( num > 0)
         {
             lastDigit = num % 10;
@@ -24,7 +24,7 @@ public class BinoToDeci
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter the number here - ");
-        int userInput = sc.nextInt();
+        long userInput = sc.nextLong();
         System.out.print(conversion(userInput));
 
         sc.close();
