@@ -1,8 +1,5 @@
 package bitwise.questions;
-
-
 import java.util.*;
-
 public class fastexpo
 {
     public static int expo(int a , int n)
