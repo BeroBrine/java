@@ -1,4 +1,4 @@
-
+package practice.loops;
 import java.util.*;
 
 public class q3

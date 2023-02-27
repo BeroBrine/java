@@ -1,3 +1,4 @@
+package practice.starPattern;
 import java.util.Scanner;
 public class chrPattern2
 {
