@@ -26,7 +26,7 @@ class Pen
     // {
     //     tip = newTip; 
     // }
-     
+
     // defining the get functions 
     String getColor()
     {
