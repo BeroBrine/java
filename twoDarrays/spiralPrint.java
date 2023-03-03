@@ -1,7 +1,5 @@
 package twoDarrays;
-
-import java.util.*;
-
+import java.util.Arrays;
 public class spiralPrint {
     public static void print(int matrix[][]) {
         int startRow = 0;
@@ -35,7 +33,7 @@ public class spiralPrint {
                 }
                 System.out.print(matrix[endRow][j] + " ");
 
-            }
+            } 
             // left
             for (int i = endRow - 1; i >= startRow+1; i--) 
             {
