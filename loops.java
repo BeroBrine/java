@@ -12,9 +12,5 @@ public class loops
         {
             System.out.println("big Chungus");
         }
-        for(i=0 ; i<6 ; i++)
-        {
-            System.out.println("bigga" * i);
-        }
-    }
+
 }

@@ -19,7 +19,6 @@ public class stringCompress
             sc.append(str.charAt(i));
             if (count > 1)
             {
-
                 sc.append(count.toString());
             }
         }
