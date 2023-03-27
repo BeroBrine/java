@@ -9,5 +9,20 @@ public class adsf
             System.out.println(i);
             i += 2;
         }
+
+        teriAmmi wow = new teriAmmi();
+        System.out.println(wow.chungus);
     }
+}
+
+class teriAmmi
+{
+    String Name;
+
+    void setName
+    teriAmmi()
+    {
+        System.out.println("teri maa da fudda oe");
+    }
+
 }
