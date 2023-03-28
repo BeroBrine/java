@@ -11,15 +11,24 @@ public class adsf
         }
 
         teriAmmi wow = new teriAmmi();
-        System.out.println(wow.chungus);
+        wow.setName("abhishek");
+        System.out.println(wow.getName());
     }
 }
 
 class teriAmmi
 {
-    String Name;
+    private String Name;
 
-    void setName
+    void setName(String setName)
+    {
+        Name = setName;
+    }
+
+    String getName()
+    {
+        return this.Name;
+    }
     teriAmmi()
     {
         System.out.println("teri maa da fudda oe");
